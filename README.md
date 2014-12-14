@@ -2,7 +2,7 @@ gandi-dyndns
 ============
 
 If you have a computer with a dynamic ip address, and host a domain at Gandi's, you can use this small script
-to update a specific dns entry with you public ip address (not unlike no-ip, dyndns, and other services).
+to update a specific dns entry with your public ip address (not unlike no-ip, dyndns, and other services).
 
 Configuration
 =============
@@ -20,3 +20,14 @@ The configuration file has the following form:
   ]
 
 See the provided sample in the project folder.
+
+Running it
+==========
+
+You must have nodejs installed:
+
+nodejs .
+
+or
+
+nodejs index
