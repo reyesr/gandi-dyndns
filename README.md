@@ -31,3 +31,14 @@ nodejs .
 or
 
 nodejs index
+
+How it works
+============
+
+For each entry in the configuration file, the script does the following:
+
+- It gets the public IP of the computer it runs on, using the http://icanhazip.com service
+- It checks if the record exists in the DNS entry
+- If the record does not exist, or if it exists but is different from the public IP, then it updates
+the DNS record
+
